@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #125f59;
+}
+.name {
+  width: 300px;
+  height: auto;
+  padding-left: 0.6rem;
+}
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  margin: -1rem 0rem 0 0rem;
+  padding: 1rem 0.2rem 0 0.2rem;
+  font-size: 1.1rem;
+}
+.navigation a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: #ffffff;
+}
+.navigation a:hover {
+  text-decoration: underline;
+  background-color: #022523;
+}
+.bg__container {
+  width: 100%;
+  height: 400px;
+  background-color: #125f59;
+  display: flex;
+  flex-wrap: wrap;
+}
+.name__container {
+  width: 60%;
+  text-align: center;
+}
+.image__profile__container {
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image__profile {
+  width: auto;
+  height: 280px;
+}
+.biotechnologist__title {
+  color: #ffffff;
+  font-family: "Fredoka One", cursive;
+  font-size: 3rem;
+  line-height: 25px;
+}
+.biotechnologist__description {
+  color: #ffffff;
+  padding: 1rem 3.5rem;
+  line-height: 20px;
+  font-size: 1.2rem;
+}
+.social__icon__container {
+  padding: 0 1rem;
+}
+.social__icon {
+  width: 40px;
+}
+.section__title {
+  color: #125f59;
+  font-family: "Fredoka One", cursive;
+  font-size: 2rem;
+}
+#aboutMe,
+#experience,
+#skills {
+  margin: 3rem;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 10px;
+}
+.one__container {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #065c4d;
+  padding: 1rem;
+  margin: auto;
+}
+.job {
+  background-color: #065c4d;
+  width: 300px;
+  height: 300px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.job__description {
+  display: none;
+}
+.job__icon {
+  width: 70px;
+  height: 70px;
+}
+.job:hover {
+  display: none;
+}
+.job:hover + .job__description {
+  background-color: #ffffff;
+  width: 300px;
+  height: 300px;
+  color: #000000a2;
+  text-align: justify;
+  display: table-cell;
+  display: block;
+  font-size: 1.1rem;
+}
+.two__container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000;
+  padding: 1rem;
+  margin: auto;
+}
+.three__container {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #000;
+  padding: 1rem;
+  margin: auto;
+}
+.mt__2 {
+  margin-top: 2rem;
+}
+.text__center {
+  text-align: center;
+}
+.about__me {
+  display: grid;
+  grid-template-columns: 800px 400px;
+  grid-gap: 10px;
+}
+.about__me__description {
+  text-align: justify;
+  font-size: 1.1rem;
+}
+.about__me__img {
+  text-align: center;
+}
+.about_img {
+  width: 80%;
+  height: auto;
+}
+.footer {
+  background-color: #125f59;
+  height: 40px;
+  text-align: center;
+  font-size: 1rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills {
+  list-style-type: none;
+}
+.skills > li > p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spanish {
+  width: 50%;
+  text-align: center;
+}
+.english {
+  width: 50%;
+  text-align: center;
+}
+.flag {
+  width: 200px;
+  height: auto;
+}
+.certifitions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.certifition {
+  width: 25%;
+  text-align: center;
+}
+.conocer {
+  width: 200px;
+  height: auto;
+}
+.certification__item {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+.skills__title {
+  color: #125f59;
+  font-weight: 500;
+}
+.skills__bar {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.microsoft {
+  width: 90%;
+  background-color: #eb7d5b;
+}
+.cms {
+  width: 85%;
+  background-color: #fed23f;
+}
+.gromacs {
+  width: 50%;
+  background-color: #b5d33d;
+}
+.js {
+  width: 20%;
+  background-color: #6ca2ea;
+}
+.sql {
+  width: 10%;
+  background-color: #442288;
+}
+.mt__3 {
+  margin-top: 3rem;
+}
